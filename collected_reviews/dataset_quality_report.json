@@ -1,0 +1,42 @@
+{
+  "generated_utc": "2026-08-13T11:05:40.819274Z",
+  "input_row_count": 15705,
+  "eligible_after_cleaning": 14769,
+  "target_total": 16000,
+  "final_row_count": 14769,
+  "target_reached": false,
+  "exclusions": {
+    "duplicate_same_app_platform_date_text": 320,
+    "non_english": 616
+  },
+  "platform_counts": {
+    "android": 14241,
+    "ios": 528
+  },
+  "application_platform_counts": {
+    "android:Barclays": 3772,
+    "android:Chase UK": 1799,
+    "android:Monzo": 2244,
+    "android:Revolut": 3597,
+    "android:Starling Bank": 2829,
+    "ios:Barclays": 233,
+    "ios:Chase UK": 63,
+    "ios:Monzo": 232
+  },
+  "rating_counts": {
+    "1": 2434,
+    "2": 432,
+    "3": 433,
+    "4": 981,
+    "5": 10489
+  },
+  "privacy_check": {
+    "author_name_column_present": false,
+    "author_id_column_present": false
+  },
+  "limitations": [
+    "The Apple public feed provides only a subset of all App Store reviews.",
+    "Short-text language identification is conservative and may exclude ambiguous reviews.",
+    "A target shortfall is reported rather than filled with synthetic reviews."
+  ]
+}

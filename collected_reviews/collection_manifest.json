@@ -1,0 +1,49 @@
+{
+  "study": "UC-17686 Cross-Platform Mobile Banking Review Study",
+  "date_start": "2025-07-29",
+  "date_end": "2026-07-28",
+  "country": "gb",
+  "language": "en",
+  "collection_timestamp_utc": "2026-08-13T11:01:19.120287Z",
+  "dry_run": false,
+  "applications": [
+    {
+      "name": "Monzo",
+      "google_play_id": "co.uk.getmondo",
+      "apple_app_id": "1052238659"
+    },
+    {
+      "name": "Starling Bank",
+      "google_play_id": "com.starlingbank.android",
+      "apple_app_id": "956806430"
+    },
+    {
+      "name": "Chase UK",
+      "google_play_id": "com.chase.intl",
+      "apple_app_id": "1517121245"
+    },
+    {
+      "name": "Revolut",
+      "google_play_id": "com.revolut.revolut",
+      "apple_app_id": "932493382"
+    },
+    {
+      "name": "Barclays",
+      "google_play_id": "com.barclays.android.barclaysmobilebanking",
+      "apple_app_id": "536248734"
+    }
+  ],
+  "files": {
+    "google_play_reviews.csv": {
+      "row_count": 15161
+    },
+    "apple_app_store_reviews.csv": {
+      "row_count": 544
+    }
+  },
+  "limitations": [
+    "Apple's public customer-review feed exposes only a subset of reviews.",
+    "The Apple public feed permits at most ten pages of up to fifty reviews per app.",
+    "Storefront availability and rate limits can change; all retrieval counts are reported."
+  ]
+}
