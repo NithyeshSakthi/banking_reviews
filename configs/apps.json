@@ -1,0 +1,32 @@
+{
+  "study": "UC-17686 Cross-Platform Mobile Banking Review Study",
+  "country": "gb",
+  "language": "en",
+  "applications": [
+    {
+      "name": "Monzo",
+      "google_play_id": "co.uk.getmondo",
+      "apple_app_id": "1052238659"
+    },
+    {
+      "name": "Starling Bank",
+      "google_play_id": "com.starlingbank.android",
+      "apple_app_id": "956806430"
+    },
+    {
+      "name": "Chase UK",
+      "google_play_id": "com.chase.intl",
+      "apple_app_id": "1517121245"
+    },
+    {
+      "name": "Revolut",
+      "google_play_id": "com.revolut.revolut",
+      "apple_app_id": "932493382"
+    },
+    {
+      "name": "Barclays",
+      "google_play_id": "com.barclays.android.barclaysmobilebanking",
+      "apple_app_id": "536248734"
+    }
+  ]
+}

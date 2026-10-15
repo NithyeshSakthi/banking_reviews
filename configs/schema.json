@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "description": "Privacy-minimised unified schema for Google Play and Apple App Store mobile-banking reviews.",
+  "fields": [
+    {"name": "review_id", "type": "string", "required": true, "description": "Stable SHA-256-derived identifier; not a username or author ID."},
+    {"name": "review_text", "type": "string", "required": true, "description": "Normalised public review text."},
+    {"name": "review_title", "type": "string", "required": false, "description": "Apple review title; blank for Google Play."},
+    {"name": "review_rating", "type": "integer", "required": true, "allowed": [1, 2, 3, 4, 5]},
+    {"name": "review_datetime_utc", "type": "datetime", "required": true, "format": "ISO 8601 UTC"},
+    {"name": "application_name", "type": "string", "required": true},
+    {"name": "application_id", "type": "string", "required": true, "description": "Google package ID or Apple numeric app ID."},
+    {"name": "platform", "type": "string", "required": true, "allowed": ["android", "ios"]},
+    {"name": "store_country", "type": "string", "required": true, "example": "gb"},
+    {"name": "store_language", "type": "string", "required": true, "example": "en"},
+    {"name": "app_version", "type": "string", "required": false},
+    {"name": "review_likes", "type": "integer", "required": false},
+    {"name": "developer_response_present", "type": "boolean", "required": true},
+    {"name": "collection_timestamp_utc", "type": "datetime", "required": true, "format": "ISO 8601 UTC"},
+    {"name": "source_url", "type": "string", "required": true}
+  ],
+  "excluded_personal_fields": ["author_name", "author_id", "profile_image", "user_name"],
+  "annotation_fields_to_add_later": [
+    "sentence_id",
+    "aspect_bio_labels",
+    "aspect_category",
+    "aspect_sentiment",
+    "annotator_id",
+    "adjudication_status"
+  ]
+}
