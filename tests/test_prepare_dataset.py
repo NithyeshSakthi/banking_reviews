@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from collect_reviews import SCHEMA, parse_window, stable_review_id, write_csv
-from prepare_dataset import clean_and_filter, stratified_sample
+from banking_reviews.scripts.prepare_dataset import clean_and_filter, stratified_sample
 
 
 def row(review_id, text, platform, app, reviewed_at, rating="5"):
