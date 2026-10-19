@@ -1,6 +1,6 @@
 # Cross-Platform Mobile Banking Review Collector
 
-This package collects genuine public reviews for the five UK banking applications identified in the UC-17686 proposal. It normalises Google Play and Apple App Store records into one privacy-minimised schema and never generates synthetic reviews.
+This package collects genuine public reviews for the five UK banking applications identified in the proposal. It normalises Google Play and Apple App Store records into one privacy-minimised schema and never generates synthetic reviews.
 
 ## Included applications
 
